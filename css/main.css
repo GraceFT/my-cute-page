@@ -100,6 +100,10 @@ header li:hover{
     float: left;
     margin-right: 10px;
 }
+.section-2 img:hover{
+    width: 190px;
+    transition: 500ms all;
+}
 .section-2 .about-me{
     height: 280px;
     margin: 50px 200px
@@ -128,6 +132,10 @@ header li:hover{
     border: 2px solid darkorchid;
     border-radius: 100%;
 }
+.section-3 img:hover{
+    width: 120px;
+    transition: 500ms all;
+}
 .section-3 ul{
     list-style: none;
 }
@@ -150,9 +158,12 @@ footer {
     margin: 40px 18px;
     border-radius: 100%;
 }
+.contact img:hover{
+    width: 120px;
+    transition: 500ms all;
+}
 .contact .twitter{
-    background: rgba(51,204,255,0.7);
-    
+    background-color: rgba(51,204,255,0.7);
 }
 .contact .facebook{
     background: rgba(59,89,152,0.7);
