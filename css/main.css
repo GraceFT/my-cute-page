@@ -1,0 +1,162 @@
+*{
+    font-family: 'Oswald', "sans-serif";
+}
+/*--------FONTS-jOSEFIN---------------------------------------*/
+/* latin-ext */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans'), local('JosefinSans'), url(https://fonts.gstatic.com/s/josefinsans/v9/xgzbb53t8j-Mo-vYa23n5j0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans'), local('JosefinSans'), url(https://fonts.gstatic.com/s/josefinsans/v9/xgzbb53t8j-Mo-vYa23n5ugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/*----------------FONT-OSWALD----------------------*/
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v11/yg0glPPxXUISnKUejCX4qfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v11/pEobIV_lL25TKBpqVI_a2w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/*----------HEADER---------------------------------*/
+header ul{
+    list-style: none;
+    margin: 10px 300px;
+    text-align: center;
+} 
+header li{
+    display: inline-block;
+    padding: 10px 20px;
+    margin:  0 20px;
+    text-decoration: none;
+}
+header li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+}
+header li:hover{
+    background-color:  rgba(235,167,221,0.5);
+    text-decoration: none;
+}
+
+/*-----------------SECTION-1---------------*/
+.section-1 {
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    height: 450px;
+}
+.section-1 img{
+    margin: auto;
+    display: block;
+    margin: 100px auto;
+}
+.section-1 .name{
+    color: #fff;
+    margin: -80px 400px;
+    list-style: none;
+    text-align: center;
+}
+.section-1 h3{
+    font-family: "Josefin Sans"
+}
+/*-----------------SECTION-2----------------*/
+.section-2 {
+    background-image: url(../images/tile1.png);
+    height: 350px;
+}
+.section-2 h2{
+    text-align: center;
+    color: darkorchid;
+    margin-bottom: 30px
+}
+.section-2 p{
+    font-family: "Josefin Sans";
+    font-size: 15px;
+}
+.section-2 img {
+    width: 180px;
+    padding: 3px;
+    border: 1px solid #000;
+    float: left;
+    margin-right: 10px;
+}
+.section-2 .about-me{
+    height: 280px;
+    margin: 50px 200px
+}
+/*-----------------SECTION-3----------------*/
+.section-3 {
+    height: 420px;
+}
+.section-3 .favorite{
+    text-align: center;
+    margin-top: 100px;
+    color: darkorchid;
+}
+.favorite h3{
+  font-family: "Josefin Sans";  
+}
+.section-3 .likes{
+    margin: 0 340px;
+}
+.section-3 a{
+    margin: 3px
+}
+.section-3 img {
+    width: 110px;
+    padding: 3px;
+    border: 2px solid darkorchid;
+    border-radius: 100%;
+}
+.section-3 ul{
+    list-style: none;
+}
+.section-3 li {
+     display: inline-block;
+}
+/*-----------------FOOTER-------------------------------------*/
+footer {
+    background-image: url(../images/tile2.png);
+}
+.contact h2{
+    color: darkorchid;
+    text-align: center;
+}
+.contact {
+    width: 500px;
+    margin: 50px auto;
+}
+.contact img{
+    margin: 40px 18px;
+    border-radius: 100%;
+}
+.contact .twitter{
+    background: rgba(51,204,255,0.7);
+    
+}
+.contact .facebook{
+    background: rgba(59,89,152,0.7);
+}
+.contact .linkedin{
+    background: rgba(0,119,181,0.7);
+}
