@@ -36,69 +36,79 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /*----------HEADER---------------------------------*/
-header ul{
+header {
     list-style: none;
-    margin: 10px 300px;
     text-align: center;
-} 
-header li{
-    display: inline-block;
-    padding: 10px 20px;
-    margin:  0 20px;
-    text-decoration: none;
+    background-image: url(../images/ggg.png);
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
 }
-header li a{
+header a{
+    margin: 20px 0;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     display: block;
     font-size: 17px;
     font-weight: bold;
+    text-shadow: 1px 1px rgba(204,204,204,0.5);
 }
-header li:hover{
-    background-color:  rgba(235,167,221,0.5);
+header a:hover{
+    background-color:   rgba(0,119,181,0.2);
     text-decoration: none;
 }
 
 /*-----------------SECTION-1---------------*/
 .section-1 {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/sea.jpg);
     background-attachment: fixed;
-    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
 }
 .section-1 img{
+    width: 10%;
+    border-radius: 10px;
     margin: auto;
     display: block;
     margin: 100px auto;
 }
+.name h1{
+    font-size: 50px;
+    text-shadow: 1px 1px rgba(204,204,204,0.5);
+}
 .section-1 .name{
     color: #fff;
-    margin: -80px 400px;
+    margin: -80px 300px;
     list-style: none;
     text-align: center;
 }
 .section-1 h3{
-    font-family: "Josefin Sans"
+    font-family: "Josefin Sans";
+    font-weight: bold;
 }
 /*-----------------SECTION-2----------------*/
 .section-2 {
-    background-image: url(../images/tile1.png);
-    height: 350px;
+    background-image: url(../images/symphony.png);
+    height: 380px;
 }
 .section-2 h2{
     text-align: center;
     color: darkorchid;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    text-shadow: 1px 1px rgba(204,204,204,0.5)
 }
 .section-2 p{
     font-family: "Josefin Sans";
-    font-size: 15px;
+    font-size: 16px;
+    text-align: justify;
+    color: royalblue;
 }
 .section-2 img {
-    width: 180px;
-    padding: 3px;
+    width: 100%;
+    padding: 5px;
     border: 1px solid #000;
-    float: left;
-    margin-right: 10px;
 }
 .section-2 img:hover{
     width: 190px;
@@ -108,32 +118,36 @@ header li:hover{
     height: 280px;
     margin: 50px 200px
 }
+.likes p{
+   text-align: center;
+}
 /*-----------------SECTION-3----------------*/
 .section-3 {
     height: 420px;
+    background-image: url(../images/symphony.png);
 }
 .section-3 .favorite{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     color: darkorchid;
 }
 .favorite h3{
-  font-family: "Josefin Sans";  
+  font-family: "Josefin Sans";
+    text-shadow: 1px 1px rgba(204,204,204,0.5)
 }
 .section-3 .likes{
-    margin: 0 340px;
-}
-.section-3 a{
-    margin: 3px
+    margin: 0 200px;
+    height: 150px;
 }
 .section-3 img {
-    width: 110px;
+    width: 130px;
     padding: 3px;
     border: 2px solid darkorchid;
     border-radius: 100%;
+    margin: 0 5px;
 }
-.section-3 img:hover{
-    width: 120px;
+.likes img:hover{
+    width: 110px;
     transition: 500ms all;
 }
 .section-3 ul{
@@ -142,20 +156,27 @@ header li:hover{
 .section-3 li {
      display: inline-block;
 }
+.section-3 p{
+    font-size: 18px;
+    font-family: "Josefin Sans";
+}
 /*-----------------FOOTER-------------------------------------*/
 footer {
-    background-image: url(../images/tile2.png);
+    background-image: url(../images/CKN6EV.jpg);
+    background-size: cover;
+    height: 250px;
 }
 .contact h2{
     color: darkorchid;
     text-align: center;
+    text-shadow: 1px 1px rgba(204,204,204,0.5)
 }
 .contact {
     width: 500px;
-    margin: 50px auto;
+    margin: 30px auto;
 }
 .contact img{
-    margin: 40px 18px;
+    margin: 10px 18px;
     border-radius: 100%;
 }
 .contact img:hover{
